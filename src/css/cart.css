@@ -1,0 +1,118 @@
+.cartProductContainer {
+  display: flex;
+  width: 80%;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+  margin: 40px auto;
+}
+
+.cartItems {
+  display: flex;
+  width: 100%;
+}
+
+.delCartItem,
+.cartBookNameConatiner,
+.cartBookPriceContainer,
+.cartBookQtyContainer,
+.cartBookTotalPriceContainer {
+  width: 20%;
+}
+
+.cartBookNameHead,
+.cartBookPriceHead,
+.cartBookQtyHead,
+.cartBookTotalPriceHead {
+  font-weight: 600;
+  padding: 8px 0px;
+  border-bottom: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.delCartItemHead {
+  border-bottom: 1px solid blueviolet;
+  padding: 18.6px 0px;
+}
+
+.cartBookQtyEdit {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.qtyDec {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.qtyDec:hover {
+  color: #ffffff;
+  background-color: blueviolet;
+}
+
+.qtInc {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.qtInc:hover {
+  color: #ffffff;
+  background-color: blueviolet;
+}
+
+.cartBookName,
+.cartBookPrice,
+.cartBookTotalPrice {
+  padding: 20px 0px;
+}
+
+.cartBookName {
+  word-wrap: break-word;
+}
+
+.noCart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.prcToOrder {
+  margin-left: auto;
+  width: fit-content;
+  margin-right: 130px;
+  background-color: blueviolet;
+  padding: 12px;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prcToOrder:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid blueviolet;
+}
+
+.delCartItemIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  cursor: pointer;
+}

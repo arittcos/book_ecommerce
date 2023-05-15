@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.headerContainer {
+  width: 100%;
+  box-shadow: 0px 0px 8px #ccc;
+  display: flex;
+  align-items: center;
+  padding: 4px 60px;
+}
+
+.siteLogo {
+  width: 120px;
+  height: 80px;
+}
+
+.siteLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.searchOption {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.searchOption input {
+  padding: 8px 12px;
+  outline: none;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.searchBtn {
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 12px;
+  font-size: 12px;
+  position: relative;
+  left: 12px;
+}
+
+.searchOption input:focus {
+  box-shadow: 0px 0px 4px blueviolet;
+}
+
+.homeBtn {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  right: 60px;
+  color: black;
+}
+
+.homeBtn:hover {
+  color: blueviolet;
+}
+
+.orderHistory {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  right: 40px;
+  color: black;
+}
+
+.loginOrLogoutBtn {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.loginOrLogoutBtn:hover {
+  color: blueviolet;
+}
+
+.orderHistory:hover {
+  color: blueviolet;
+}
+
+.cart {
+  background-color: blueviolet;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cart:hover {
+  outline: 1px solid blueviolet;
+  background-color: #ffffff;
+  color: black;
+}
+
+.cards {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.card {
+  width: 280px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-book-img {
+  width: 80%;
+  margin: auto;
+  height: 180px;
+  margin-bottom: 18px;
+}
+
+.card-book-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-book-short-description {
+  width: 100%;
+  word-wrap: break-word;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  background-color: blueviolet;
+  color: #ffffff;
+  padding: 4px 0px;
+  margin-top: 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  outline: 1px solid blueviolet;
+  background-color: #ffffff;
+  color: black;
+}
+
+.card-book-name,
+.card-book-author,
+.card-book-price {
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+.card-book-price span {
+  color: #828282;
+  font-size: 14px;
+}
+
+.card-book-name span {
+  color: #828282;
+  font-size: 14px;
+}
+
+.card-book-author span {
+  color: #828282;
+  font-size: 14px;
+}
+
+.card-book-short-description span {
+  color: #828282;
+  font-size: 14px;
+}
+
+.banner-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.banner-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.banner-images img {
+  width: 200px;
+  height: 220px;
+}
+
+.banner-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.banner-shadow:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.banner-content p {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.banner-content p span {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+.banner-visit-store-btn {
+  background-color: blueviolet;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.loginReq {
+  color: red;
+  margin: 40px auto;
+  width: fit-content;
+}

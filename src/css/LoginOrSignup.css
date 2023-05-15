@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+.loginOrSignupContainer {
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 8px #ccc;
+  display: flex;
+  border-radius: 14px;
+}
+
+.signupSection,
+.loginSection {
+  width: 50%;
+  height: 100%;
+}
+
+.signupSection {
+  background-color: blueviolet;
+  border-bottom-left-radius: 14px;
+  border-top-left-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginSection {
+  background-color: #ffffff;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 60%;
+}
+
+.loginInputs {
+  padding: 10px 10px;
+  border: 1px solid blueviolet;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  outline: none;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  color: #ffffff;
+  padding: 12px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.submitBtn:hover {
+  background-color: #ffffff;
+  outline: 1px solid blueviolet;
+  color: black;
+}
+
+::placeholder {
+  letter-spacing: 1px;
+}
+
+.loginSection a {
+  text-decoration: none;
+  font-size: 14px;
+  color: blueviolet;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signupSection img {
+  width: 210px;
+  height: 210px;
+}
+
+.newUserSignup {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 4px 18px;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.newUserSignup:hover {
+  padding: 4px 24px;
+}
+
+.signupSection p {
+  text-align: center;
+  padding: 0px 18px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 18px;
+}
